@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./scripts/lib/bootstrap/dist/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="./scripts/lib/bootstrap/dist/css/bootstrap-theme.css" >
+	<link rel="stylesheet" href="./scripts/lib/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./content/app.css">
+</head>
+<body>
+	<!--Nav section -->
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Logo goes here</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+         <li><a href="index.html"><i class="fa fa-home fa-2x"></i> Home</a></li>
+        <li><a href="projects.html"><i class="fa fa-map-signs fa-2x"></i> Projects</a></li>
+        <li class="active"><a href="contact.html"><i class="fa fa-mobile fa-2x"></i> Contact Me</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!--main section -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6">
+				<!-- Contact form -->
+				<h1 id="firstHeading">Contact Me</h1>
+				<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Contact Number</label>
+    <input type="tel" class="form-control" id="exampleInputNumber" placeholder="(000) 000-0000" required>
+  </div>
+	<div class="form-group">
+    <label for="exampleInputPassword1">Email</label>
+    <input id="email" type="text" placeholder="Enter your email address here" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Full name</label>
+    <input id="fullName" type="text" placeholder="Enter your full name here" required>
+  </div>
+	 <div class="form-group">
+    <label for="exampleInputPassword1">Message</label>
+    <textarea id="message" class="form-control" rows="3" placeholder="Enter your message here" required></textarea>
+  </div>
+
+  <button id="send" type="submit" class="btn btn-primary">Send</button>
+	<button id="reset" type="reset" class="btn btn-warning">Reset</button>
+</form>
+			
+	</div>
+
+	<!-- footer section -->
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+  		<div class="container">
+		  <h4> &copy 2017 All Rights Reserved.</h4>
+  		</div>
+	</nav>
+
+
+	<!-- JavaScript section -->
+	<script src="./scripts/lib/jquery/dist/jquery.min.js"></script>
+	<script src="./scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="./scripts/app.js"></script>
+</body>
+</html>
